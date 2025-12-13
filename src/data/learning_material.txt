@@ -1,43 +1,5 @@
-# Learning Material for AI-Powered Personalized Learning Mentor
-
-Photosynthesis:
-Photosynthesis is the process by which green plants use sunlight, carbon dioxide, and water to produce glucose and oxygen. 
-Chlorophyll absorbs light energy, which is then converted into chemical energy.
-
-Newton’s Laws of Motion:
-1. First Law: An object will remain at rest or in uniform motion unless acted upon by an external force.
-2. Second Law: Force = mass × acceleration (F = ma).
-3. Third Law: For every action, there is an equal and opposite reaction.
-
-Pythagorean Theorem:
-In a right-angled triangle, the square of the hypotenuse (c) is equal to the sum of the squares of the other two sides (a and b). 
-Formula: a^2 + b^2 = c^2
-
-Cell Structure:
-Cells are the basic structural and functional units of life. 
-Major organelles include nucleus, mitochondria, cytoplasm, and cell membrane.
-
-Basic Algebra:
-An algebraic expression contains variables, coefficients, and constants.
-Example: 3x + 5 = 14
-
-Computer Science Basics:
-A computer program is a set of instructions that tells a computer how to perform a task.
-An algorithm is a step-by-step procedure to solve a problem.
-Machine Learning allows computers to learn patterns from data without being explicitly programmed.
-
-English Grammar:
-A noun is a person, place, thing, or idea.
-A verb is an action or state of being.
-An adjective describes a noun.
-
-Geography:
-Continents are the largest landmasses on Earth. 
-There are seven continents: Asia, Africa, North America, South America, Antarctica, Europe, and Australia.
-
-History:
-The Indus Valley Civilization was one of the earliest urban civilizations, known for planned cities and drainage systems.
-
-Chemistry Basics:
-Matter is anything that has mass and occupies space.
-Atoms are the smallest units of matter.
+Photosynthesis is the process by which plants use sunlight, carbon dioxide, and water to produce glucose and oxygen.
+Newton’s First Law: An object at rest stays at rest unless acted upon by an external force.
+Pythagorean theorem: a^2 + b^2 = c^2.
+Cells are the basic units of life. Organelles like mitochondria and nucleus perform essential functions.
+A noun is a person, place, or thing. A verb expresses action.
