@@ -1,4 +1,4 @@
-# 📘 Adaptive Learning RAG System  
+# 🎓 AI‑Powered Personalized Learning Mentor with Adaptive Assessments  
 ### TEAM‑133 — DATA DETECTIVES  
 GenAI Hackathon Project
 
@@ -6,58 +6,85 @@ GenAI Hackathon Project
 
 ## 🚀 Project Overview
 
-This project is an **Adaptive Learning RAG (Retrieval‑Augmented Generation) System** that helps learners understand educational content more effectively by:
+Traditional education systems often follow a **one‑size‑fits‑all** approach where every student learns at the same pace.  
+This leads to:
 
-- Retrieving the most relevant information from learning materials  
-- Generating clear, contextual explanations using an LLM  
-- Providing an interactive Q&A environment  
-- Supporting personalized learning for every student  
+- Students struggling with difficult concepts  
+- No personalized learning assistance  
+- Lack of adaptive assessments  
+- Limited teacher time for individualized feedback  
 
-The system is ideal for **education**, **self‑learning**, **revision tools**, and AI‑powered tutoring.
+Our project solves this by building an **AI‑Powered Personalized Learning Mentor** that dynamically:
+
+✔ Assesses student understanding  
+✔ Provides tailored learning content  
+✔ Generates adaptive quizzes and explanations  
+✔ Helps learners progress at their own pace  
 
 ---
 
 ## 🎯 Problem Statement
 
-Learners often struggle with:
+Students in traditional education systems:
 
-- Understanding complex concepts  
-- Locating relevant information quickly  
-- Getting personalized explanations from their own notes  
+- Learn at varying speeds  
+- Have different strengths and weaknesses  
+- Lack personalized feedback  
+- Lose motivation when concepts aren’t understood  
 
-Traditional learning tools do not adapt to each learner’s pace or content.
+Teachers cannot provide individual attention due to time and scale constraints.
+
+There is a need for an **intelligent system** that:
+
+- Understands student performance  
+- Personalizes learning materials  
+- Generates adaptive assessments  
+- Improves retention and learning efficiency  
 
 ---
 
-## 💡 Our Solution
+## 💡 Proposed Solution
 
-We built a **Retrieval‑Augmented Learning System** that:
+We propose a **GenAI‑powered mentor system** that:
 
-### ✔ Accepts and processes custom learning material  
-### ✔ Splits content into semantic chunks  
-### ✔ Generates vector embeddings  
-### ✔ Stores them in ChromaDB for fast retrieval  
-### ✔ Uses a HuggingFace LLM (FLAN‑T5) for accurate, easy‑to‑understand answers  
+### 🔹 Understands learning material using RAG  
+- Extracts concepts  
+- Retrieves relevant information  
+- Gives contextual explanations  
 
-This makes the system **adaptive, intelligent, and fully explainable**.
+### 🔹 Analyzes student performance  
+- Tracks learning progress  
+- Identifies weak areas  
+- Adjusts difficulty level dynamically  
+
+### 🔹 Generates adaptive assessments  
+- Personalized quizzes  
+- Concept‑level explanations  
+- Instant feedback  
+
+### 🔹 Provides mentor‑like guidance  
+- Motivational support  
+- Suggests next learning topics  
+- Helps students revise effectively  
 
 ---
 
 ## 🧠 Tech Stack
 
-### 🔹 Core Technologies
-- Python  
-- Google Colab  
-- LangChain 0.1.20  
-- LangChain‑Community 0.0.38  
-- ChromaDB 0.4.22  
-- HuggingFace Models (MiniLM‑L6‑v2 Embeddings)  
-- FLAN‑T5 Large (LLM)
+### **AI + NLP**
+- HuggingFace FLAN‑T5 (LLM)
+- MiniLM‑L6‑v2 (Embeddings)
+- Retrieval Augmented Generation (RAG)
 
-### 🔹 Additional Libraries
+### **Frameworks**
+- Python  
+- LangChain  
+- ChromaDB  
 - Transformers  
-- Accelerate  
-- Sentence‑Transformers  
+
+### **Environment**
+- Google Colab  
+- GitHub  
 
 ---
 
