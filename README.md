@@ -1,8 +1,10 @@
 🚀 AI‑Powered Personalized Learning Mentor with Adaptive Assessments
+
 TEAM‑133 — DATA DETECTIVES
 GenAI Hackathon Project
 
 📘 Project Overview
+
 Traditional education often follows a one‑size‑fits‑all model. Students learn at different speeds and face unique challenges, while teachers cannot personalize learning for every student.
 
 This project introduces an AI‑Powered Personalized Learning Mentor that:
@@ -18,6 +20,7 @@ Tracks progress and recommends next topics
 It works like a 24×7 intelligent personal tutor.
 
 🎯 Problem Statement
+
 Students often struggle with:
 
 Complex concepts
@@ -33,6 +36,7 @@ Teachers cannot scale personalized learning for every student.
 📌 Our AI mentor adapts to each student's needs and fills this gap.
 
 💡 Proposed Solution
+
 The system uses GenAI + RAG (Retrieval-Augmented Generation) + Adaptive Evaluation to deliver a personalized learning experience.
 
 🔹 Intelligent Concept Understanding (RAG)
@@ -57,6 +61,7 @@ Suggests what to study next
 Enhances learning effectiveness
 
 🧠 Tech Stack
+
 Core Technologies
 Python
 
@@ -84,6 +89,7 @@ Torch
 Pydantic v1
 
 📂 Project Structure
+
 TEAM-133-DATA_DETECTIVES/
 │
 │── notebooks/
@@ -99,11 +105,15 @@ TEAM-133-DATA_DETECTIVES/
 │── GUIDELINES.md
 │── requirements.txt
 │── .gitignore
+
 🛠️ How the System Works
+
 1️⃣ Upload Learning Material
+
 The system processes textbooks, notes, or custom text.
 
 2️⃣ RAG Pipeline Understands Concepts
+
 Chunks the content
 
 Generates embeddings
@@ -111,9 +121,11 @@ Generates embeddings
 Stores vectors in ChromaDB
 
 3️⃣ Students Ask Questions
+
 AI retrieves context and explains topics in simple language.
 
 4️⃣ AI Generates Adaptive Assessments
+
 Personalized quiz generation
 
 Automatic difficulty adjustment
