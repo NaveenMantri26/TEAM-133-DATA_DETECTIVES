@@ -1,71 +1,71 @@
 🚀 AI‑Powered Personalized Learning Mentor with Adaptive Assessments
+
 TEAM‑133 — DATA DETECTIVES
 GenAI Hackathon Project
 
 📘 Project Overview
-Traditional education often follows a one‑size‑fits‑all approach. Students learn at different speeds, have different strengths, and struggle with concepts that others may find easy.
+Traditional education often follows a one‑size‑fits‑all model. Students learn at different speeds and face unique challenges, but teachers cannot personalize content for everyone.
 
-Teachers cannot provide personalized learning paths or adaptive assessments to every student due to time and workload constraints.
+Our solution introduces an AI‑Powered Personalized Learning Mentor that:
 
-Our project solves this with an AI‑Powered Personalized Learning Mentor that:
+Understands student learning behavior
 
-✔ Understands student learning patterns
-✔ Generates tailored explanations
-✔ Adapts assessments based on student performance
-✔ Helps students improve continuously using AI insights
-This mentor behaves like a personal tutor, available anytime.
+Generates simplified concept explanations
+
+Builds adaptive assessments
+
+Tracks progress and recommends next topics
+
+Essentially, it works like a 24×7 intelligent personal tutor.
 
 🎯 Problem Statement
-Students face challenges such as:
+Students often struggle with:
 
-Difficulty understanding complex concepts
+Complex concepts
 
 Lack of personalized guidance
 
-No adaptive assessments based on their performance
+No adaptive assessments
 
-Reduced motivation when they fall behind
+Difficulty identifying weak areas
 
-Teachers cannot scale personalized feedback to all students.
+Teachers cannot scale personalized learning for every student.
 
-📌 There is a need for an intelligent mentor system that personalizes learning and dynamically evaluates student progress.
+📌 This project solves the gap by providing an AI mentor that adapts to each learner.
 
 💡 Proposed Solution
-We build a GenAI‑powered Personalized Learning Mentor with:
+Our system combines GenAI + RAG (Retrieval-Augmented Generation) + Adaptive Evaluation to create a full learning experience.
 
-🔹 Retrieval‑Augmented Generation (RAG)
-Extracts concepts from learning material
+🔹 Intelligent Concept Understanding (RAG)
+Reads learning material
 
-Retrieves relevant content to answer questions
+Splits into meaningful chunks
 
-Provides simplified explanations
+Retrieves context‑relevant sections for answers
 
 🔹 Adaptive Assessment Engine
-Creates quizzes tailored to student strengths/weaknesses
+Generates personalized quizzes
 
 Adjusts difficulty based on performance
 
-Gives step‑by‑step solutions
+Provides step‑by‑step explanations
 
-🔹 Progress Tracking System
-Identifies weak topics
+🔹 Student Progress Insights
+Detects weak topics
 
-Recommends next lessons
+Suggests what to learn next
 
-Shows improvement over time
-
-🔹 Motivational & Personalized Feedback
-AI mentor encourages, coaches, and supports the learner
+Improves learning effectiveness
 
 🧠 Tech Stack
-⚙️ Core Technologies
+Core Technologies
 Python
 
 Google Colab
 
-LangChain 0.1.x
+LangChain (0.1.x)
 
-ChromaDB (Vector Store)
+ChromaDB
 
 HuggingFace Transformers
 
@@ -73,17 +73,20 @@ FLAN‑T5 (LLM)
 
 MiniLM‑L6‑v2 Embedding Model
 
-📦 Additional Libraries
-Sentence‑Transformers
+Supporting Libraries
+sentence-transformers
 
 NumPy
 
 SciPy
 
+Torch
+
 Pydantic v1
 
 📂 Project Structure
 TEAM-133-DATA_DETECTIVES/
+│
 │── notebooks/
 │     └── adaptive_learning_rag.ipynb
 │
@@ -96,26 +99,28 @@ TEAM-133-DATA_DETECTIVES/
 │── README.md
 │── GUIDELINES.md
 │── requirements.txt
+│── .gitignore
 🛠️ How the System Works
 1️⃣ Upload Learning Material
-The model processes textbooks, notes, or custom text content.
+The system processes textbooks, notes, or custom text.
 
 2️⃣ RAG Pipeline Understands Concepts
-Splits text into semantic chunks
+Chunks material
 
-Generates vector embeddings
+Creates embeddings
 
-Stores them in ChromaDB for retrieval
+Stores in ChromaDB
 
-3️⃣ Student Asks Questions
-The mentor retrieves relevant chunks + generates context‑aware explanations.
+3️⃣ Students Ask Questions
+The system retrieves context and generates simple explanations.
 
 4️⃣ AI Generates Adaptive Assessments
-Creates personalized quizzes
+Personalized quizzes
 
-Adjusts difficulty automatically
+Auto-adjusted difficulty
 
-Provides corrective feedback
+Feedback‑rich answers
 
 5️⃣ Tracks Student Progress
-Continuously monitors weak areas and recommends what to learn next.
+Recommends topics to focus on based on performance.
+
