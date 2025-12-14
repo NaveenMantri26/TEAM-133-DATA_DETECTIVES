@@ -1,12 +1,11 @@
 🚀 AI‑Powered Personalized Learning Mentor with Adaptive Assessments
-
 TEAM‑133 — DATA DETECTIVES
 GenAI Hackathon Project
 
 📘 Project Overview
-Traditional education often follows a one‑size‑fits‑all model. Students learn at different speeds and face unique challenges, but teachers cannot personalize content for everyone.
+Traditional education often follows a one‑size‑fits‑all model. Students learn at different speeds and face unique challenges, while teachers cannot personalize learning for every student.
 
-Our solution introduces an AI‑Powered Personalized Learning Mentor that:
+This project introduces an AI‑Powered Personalized Learning Mentor that:
 
 Understands student learning behavior
 
@@ -16,7 +15,7 @@ Builds adaptive assessments
 
 Tracks progress and recommends next topics
 
-Essentially, it works like a 24×7 intelligent personal tutor.
+It works like a 24×7 intelligent personal tutor.
 
 🎯 Problem Statement
 Students often struggle with:
@@ -31,31 +30,31 @@ Difficulty identifying weak areas
 
 Teachers cannot scale personalized learning for every student.
 
-📌 This project solves the gap by providing an AI mentor that adapts to each learner.
+📌 Our AI mentor adapts to each student's needs and fills this gap.
 
 💡 Proposed Solution
-Our system combines GenAI + RAG (Retrieval-Augmented Generation) + Adaptive Evaluation to create a full learning experience.
+The system uses GenAI + RAG (Retrieval-Augmented Generation) + Adaptive Evaluation to deliver a personalized learning experience.
 
 🔹 Intelligent Concept Understanding (RAG)
 Reads learning material
 
-Splits into meaningful chunks
+Splits it into meaningful chunks
 
-Retrieves context‑relevant sections for answers
+Retrieves relevant content for answers
 
 🔹 Adaptive Assessment Engine
 Generates personalized quizzes
 
-Adjusts difficulty based on performance
+Adjusts difficulty automatically
 
-Provides step‑by‑step explanations
+Provides step-by-step explanations
 
 🔹 Student Progress Insights
-Detects weak topics
+Detects weak areas
 
-Suggests what to learn next
+Suggests what to study next
 
-Improves learning effectiveness
+Enhances learning effectiveness
 
 🧠 Tech Stack
 Core Technologies
@@ -105,22 +104,21 @@ TEAM-133-DATA_DETECTIVES/
 The system processes textbooks, notes, or custom text.
 
 2️⃣ RAG Pipeline Understands Concepts
-Chunks material
+Chunks the content
 
-Creates embeddings
+Generates embeddings
 
-Stores in ChromaDB
+Stores vectors in ChromaDB
 
 3️⃣ Students Ask Questions
-The system retrieves context and generates simple explanations.
+AI retrieves context and explains topics in simple language.
 
 4️⃣ AI Generates Adaptive Assessments
-Personalized quizzes
+Personalized quiz generation
 
-Auto-adjusted difficulty
+Automatic difficulty adjustment
 
 Feedback‑rich answers
 
 5️⃣ Tracks Student Progress
-Recommends topics to focus on based on performance.
-
+Recommends next topics based on performance.
