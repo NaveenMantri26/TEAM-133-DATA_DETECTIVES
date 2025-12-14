@@ -1,0 +1,23 @@
+# Core AI + RAG
+langchain==0.1.20
+langchain-community==0.2.6
+chromadb==0.5.3
+sentence-transformers==2.6.1
+transformers==4.41.2
+
+# Embedding Models
+torch==2.1.2
+accelerate==0.27.2
+
+# Core Dependencies
+numpy==1.26.4
+scipy==1.11.4
+pydantic==1.10.13
+
+# Utility Libraries
+tqdm==4.66.1
+requests==2.31.0
+python-dotenv==1.0.1
+
+# Optional UI (future enhancement)
+gradio==4.31.3
